@@ -1,8 +1,3 @@
-#Ördek BOT by Naransula
-#RolePLay'de kullanılmak için tasarlanmıştır.
-#config dosyanız şunları içermeli:
-#token, owner_id, enabled_guild, rp_mods
-
 import asyncio
 import hikari
 import lightbulb
@@ -74,15 +69,16 @@ async def zar15(ctx):
     r2=(random.randint(1,2))
     await ctx.respond(hikari.Embed(title=f"Zar sonucu: {r2}", description="Buraya yazacak bişey bulamadım.",colour="#FFA500"))
 
-@bot.command
-@lightbulb.option("cümle", "Söylenecek cümle.")
-@lightbulb.command("ooc", "OOC Konuşmanızı sağlar!")
-@lightbulb.implements(lightbulb.SlashCommand)
-async def yaz(ctx):
-    proxy = await ctx.respond(f"// {ctx.author.mention}: {ctx.options.cümle}")
-    message = await proxy.message()     
-    await asyncio.sleep(10)
-    await message.delete()
+#@bot.command
+#@lightbulb.option("cümle", "Söylenecek cümle.")
+#@lightbulb.command("ooc", "OOC Konuşmanızı sağlar!")
+#@lightbulb.implements(lightbulb.SlashCommand)
+#async def yaz(ctx):
+    #proxy = await ctx.respond(f"// {ctx.author.mention}: {ctx.options.cümle}")
+    #message = await proxy.message()     
+    #await asyncio.sleep(10)
+    #await message.delete()
+# Bu komudu nasıl düzeltebileceğimi biliyorsanız, Discord Sunucumdan iletişime geçebilirsiniz!
 
 @bot.command
 @lightbulb.add_checks(owner)
@@ -90,7 +86,7 @@ async def yaz(ctx):
 @lightbulb.command("söyle", "Botu konuşturur!")
 @lightbulb.implements(lightbulb.SlashCommand)
 async def yaz(ctx):
-    await ctx.respond(hikari.Embed(title="Naransula diyor ki:", description=ctx.options.cümle, colour="#FFA500"))
+    await ctx.respond(hikari.Embed(title="Bot sahibi diyor ki:", description=ctx.options.cümle, colour="#FFA500"))
 
 @bot.command
 @lightbulb.command("id", "Kullanıcı ID'nizi öğrenin.")
