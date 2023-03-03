@@ -3,9 +3,9 @@
 
 ## Kurulum
 • Bot için istediğiniz bir yere (tercihen "Belgeler" veya "Masaüstü"nde) bir ana klasör oluşturun.<br>
-• Bu klasöre [`bot.py`](https://github.com/Naransula/OrdekBOT/blob/92b68f29e701eac495b243d5155c04a8ae702d0f/bot.py)yi ekleyin. 
+• Bu klasöre [`bot.py`](https://github.com/Naransula/OrdekBOT/blob/92b68f29e701eac495b243d5155c04a8ae702d0f/bot.py)yi ekleyin.<br>
 • Bir sanal ortam (env) oluşturun ve bu ortama geçiş yapın.<br>
-• `Komutlar` klasörü oluşturun ve bu klasöre istediğiniz tüm komutları ekleyin. (bknz. Komutlar)<br>
+• [`Komutlar`](https://github.com/Naransula/OrdekBOT/tree/main/komutlar) klasörü oluşturun ve bu klasöre istediğiniz tüm komutları ekleyin. (bknz. Komutlar)<br>
 • Bir `config.py` dosyası oluşturun ve şu bilgiler ile doldurun:
 ````
 token = "Bot tokeniniz"
@@ -25,9 +25,9 @@ Bu bot, eğik çizgi komutlarını kullanır.<br>
 
 **`id`**: Kullanıcı ID'nizi yazar.<br>
 **`ooc`** ⚠️: Rol dışı konuşmanızı sağlar. Bu komut ile yazılan mesajlar birkaç saniye sonra otomatik silinir.<br>
-**`zar2`**: 2'lik bir zar atar.<br>
-**`zar15`**: 15'lik bir zar atar.<br>
-**`çatışma_zarı`**: Çatışmada kullanılan 10'luk bir zar atar.<br>
+**`zar 2`**: 2'lik bir zar atar.<br>
+**`zar 15`**: 15'lik bir zar atar.<br>
+**`zar çatışma`**: Çatışmada kullanılan 10'luk bir zar atar.<br>
 **`söyle`** 🔒: Botu konuşturmanızı sağlar.
 
 ### Destek
