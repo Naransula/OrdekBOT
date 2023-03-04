@@ -21,10 +21,8 @@ Ana klasörün son hali şu şekilde olmalıdır:<br>
 ### Komutlar
 Bu bot, eğik çizgi komutlarını kullanır.<br>
 🔒: Komudu yalnızca bot sahibi kullanabilir.<br>
-⚠️: Komut şu anlık çalışmıyor.<br><br>
 
 **`id`**: Kullanıcı ID'nizi yazar.<br>
-**`ooc`** ⚠️: Rol dışı konuşmanızı sağlar. Bu komut ile yazılan mesajlar birkaç saniye sonra otomatik silinir.<br>
 **`zar 2`**: 2'lik bir zar atar.<br>
 **`zar 15`**: 15'lik bir zar atar.<br>
 **`zar çatışma`**: Çatışmada kullanılan 10'luk bir zar atar.<br>
