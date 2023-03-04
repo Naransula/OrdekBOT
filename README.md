@@ -10,7 +10,7 @@
 ````
 token = "Bot tokeniniz"
 owner_id = 000000000000000000 # Kullanıcı ID'niz
-enabled_guild = 000000000000000000 # Botu kullanacağınız sunucu ID'si veya ID'leri.
+enabled_guilds = 000000000000000000 # Botu kullanacağınız sunucu ID'si veya ID'leri.
 rp_mods = 000000000000000000 # RP Yetkililerinizin ID'leri. (Şuanlık işlevi yoktur.)
 ````
 Ana klasörün son hali şu şekilde olmalıdır:<br>
