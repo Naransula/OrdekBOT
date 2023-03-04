@@ -5,7 +5,7 @@
 • Bot için istediğiniz bir yere (tercihen "Belgeler" veya "Masaüstü"nde) bir ana klasör oluşturun.<br>
 • Bu klasöre [`bot.py`](https://github.com/Naransula/OrdekBOT/blob/92b68f29e701eac495b243d5155c04a8ae702d0f/bot.py)yi ekleyin.<br>
 • Bir sanal ortam (env) oluşturun ve bu ortama geçiş yapın.<br>
-• [`Komutlar`](https://github.com/Naransula/OrdekBOT/tree/main/komutlar) klasörü oluşturun ve bu klasöre istediğiniz tüm komutları ekleyin. (bknz. Komutlar)<br>
+• [`Komutlar`](https://github.com/Naransula/OrdekBOT/tree/main/komutlar) klasörü oluşturun ve bu klasöre istediğiniz tüm komutları ekleyin.<br>
 • Bir `config.py` dosyası oluşturun ve şu bilgiler ile doldurun:
 ````
 token = "Bot tokeniniz"
