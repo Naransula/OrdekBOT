@@ -39,4 +39,4 @@ Bu bot, eğik çizgi komutlarını kullanır.<br>
 **`söyle`** 🔒: Botu konuşturmanızı sağlar.
 
 ### Destek
-Eğer herhangi bir sorunla karşılaşırsanız veya bir öneride bulunmak isterseniz, [Discord Sunucum](https://discord.com/invite/xYpyHtWYry) üzerinden bana ulaşabilirsiniz.
+Eğer herhangi bir sorunla karşılaşırsanız veya bir öneride bulunmak isterseniz, Discord üzerinden bize ulaşabilirsiniz. (Naransula#0001, basar#0001)
